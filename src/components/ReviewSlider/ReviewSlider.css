@@ -1,0 +1,48 @@
+.review-slider {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .review-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .reviewer-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .review-info {
+    flex: 1;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .service-taken {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .review-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+  }
+  
