@@ -1,6 +1,9 @@
+.second-sec{
+  width: 100%;
+}
 .section-container {
-    padding: 20px;
-    background-color: #f8f8f8;
+    padding: 50px 100px;
+    /* background-color: #f8f8f8; */
   }
   
   .banner-container {

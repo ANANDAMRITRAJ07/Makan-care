@@ -4,7 +4,7 @@ import product_img from "../../assets/small.png";
 
 const Section1 = () => {
   return (
-    <div>
+    <div className="second-sec">
       <div className="section-container">
         <div className="banner-container">
           <div className="banner-item orange">

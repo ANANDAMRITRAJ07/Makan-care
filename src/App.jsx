@@ -10,7 +10,6 @@ function App() {
 
   return (
     <div>
-      hello
       <Hero />
       <Section1 />
       <BlogSite />

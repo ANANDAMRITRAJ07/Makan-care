@@ -1,0 +1,20 @@
+import React from "react";
+import "./Banner.css";
+import Banner_img from '../../assets/pic5.png';
+
+const Banner = () => {
+  return (
+    <div className="banner" style={{ backgroundImage: `url(${Banner_img})` }}>
+      <div className="banner-content">
+        <p className="sale-text">Big Saving Days Sale</p>
+        <h2>Electrician Service at Makan Care</h2>
+        <p className="price-text">
+          Starting At Only <strong>$59.00</strong>
+        </p>
+        <button className="shop-btn">SHOP NOW</button>
+      </div>
+    </div>
+  );
+};
+
+export default Banner;
