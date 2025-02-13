@@ -14,13 +14,17 @@
   }
   
   .banner-item {
-    padding: 15px;
+    padding: 0px;
     border-radius: 10px;
-    color: #fff;
+    /* color: #fff; */
     text-align: center;
     flex: 1;
   }
-  
+  .banner-item img{
+    width: auto;
+    height: 175px;
+    margin: 0;
+  }
   .banner-item button {
     background: #fff;
     border: none;
@@ -30,9 +34,9 @@
     margin-top: 10px;
   }
   
-  .orange { background: #f90; }
+  /* .orange { background: #f90; }
   .blue { background: #00aaff; }
-  .purple { background: #800080; }
+  .purple { background: #800080; } */
   
   .categories {
     display: flex;
@@ -44,21 +48,24 @@
   .products-container {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 0px;
+    /* flex-wrap: wrap; */
   }
   
   .product {
     background: #fff;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 10px 10px;
+    border-radius: 0px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    border: 1px solid #666;
+    width: 16.67%;
   }
   
   .product img {
-    max-width: 100px;
-    margin-bottom: 10px;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    height: auto;
   }
   
   .price {
@@ -68,10 +75,20 @@
   
   .wall-makeover {
     text-align: center;
-    background: url('/makan-care/src/assets/pic4.png') no-repeat center center;
+    /* background: url('/makan-care/src/assets/pic4.png') no-repeat center center; */
     background-size: cover;
     padding: 40px;
     color: #fff;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px;height: 305px;margin: 20px 0;
   }
   
   .wall-makeover button {

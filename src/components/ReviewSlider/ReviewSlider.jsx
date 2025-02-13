@@ -1,65 +1,64 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/autoplay";
-import { Autoplay } from "swiper/modules";
+import "swiper/css/pagination";
 import "./ReviewSlider.css";
 
 const reviews = [
   {
     id: 1,
     name: "John Doe",
-    profilePhoto: "https://via.placeholder.com/60", // Replace with actual image
-    service: "Website Development",
-    review: "Amazing experience! The team was professional, and the website exceeded my expectations.",
+    service: "Electrical Repair",
+    review: "Amazing service! Fixed all my wiring issues professionally.",
+    image: "reviewer1.jpg",
   },
   {
     id: 2,
     name: "Jane Smith",
-    profilePhoto: "https://via.placeholder.com/60",
-    service: "SEO Optimization",
-    review: "Great results in improving search rankings! My website traffic increased significantly.",
+    service: "AC Installation",
+    review: "Quick and hassle-free AC installation. Highly recommended!",
+    image: "reviewer2.jpg",
   },
   {
     id: 3,
-    name: "Robert Brown",
-    profilePhoto: "https://via.placeholder.com/60",
-    service: "E-commerce Development",
-    review: "The online store was delivered on time with all the features I needed. Highly recommend!",
+    name: "Mike Johnson",
+    service: "Plumbing Work",
+    review: "The plumber was on time and fixed the leakage perfectly.",
+    image: "reviewer3.jpg",
   },
   {
     id: 4,
-    name: "Emily Johnson",
-    profilePhoto: "https://via.placeholder.com/60",
-    service: "Graphic Design",
-    review: "Loved the creative designs! The branding really helped boost my business presence.",
+    name: "Sarah Wilson",
+    service: "Home Renovation",
+    review: "Great craftsmanship and attention to detail. Loved the work!",
+    image: "reviewer4.jpg",
   },
 ];
 
 const ReviewSlider = () => {
   return (
     <div className="review-slider">
-      <h2>Customer Reviews</h2>
+      <h2>What Our Clients Say</h2>
       <Swiper
-        slidesPerView={3}
         spaceBetween={20}
-        autoplay={{ delay: 3000 }}
-        loop={true}
+        slidesPerView={1}
         breakpoints={{
+          768: { slidesPerView: 1 }, // iPad, mobile
           1024: { slidesPerView: 3 }, // Desktop
-          768: { slidesPerView: 1 }, // Tablet
-          480: { slidesPerView: 1 }, // Mobile
         }}
-        modules={[Autoplay]}
+        autoplay={{ delay: 3000 }}
+        pagination={{ clickable: true }}
+        modules={[Autoplay, Pagination]}
       >
         {reviews.map((review) => (
           <SwiperSlide key={review.id}>
             <div className="review-card">
-              <img src={review.profilePhoto} alt={review.name} className="reviewer-img" />
-              <div className="review-info">
-                <h3>{review.name}</h3>
-                <p className="service-taken">Service Taken: {review.service}</p>
-                <p className="review-text">{review.review}</p>
+              <img src={require(`../assets/${review.image}`)} alt={review.name} className="reviewer-img" />
+              <div className="review-content">
+                <h4>{review.name}</h4>
+                <p className="service">{review.service}</p>
+                <p className="review-text">"{review.review}"</p>
               </div>
             </div>
           </SwiperSlide>

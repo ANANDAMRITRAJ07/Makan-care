@@ -1,23 +1,22 @@
 import React from "react";
 import "./Section1.css";
 import product_img from "../../assets/small.png";
+import menu_img from '../../assets/clean.png';
+import bannerimg from '../../assets/pic4.png'
 
 const Section1 = () => {
   return (
     <div className="second-sec">
       <div className="section-container">
         <div className="banner-container">
-          <div className="banner-item orange">
-            <h3>Full House Cleaning Starts at ₹2,599</h3>
-            <button>Book Now</button>
+          <div className="banner-item">
+            <img src={menu_img} alt="" srcset="" />
           </div>
-          <div className="banner-item blue">
-            <h3>Plumbing Starts at Just ₹250</h3>
-            <button>Book Now</button>
+          <div className="banner-item">
+            <img src={menu_img} alt="" srcset="" />
           </div>
-          <div className="banner-item purple">
-            <h3>Waxing Starts at Just ₹200</h3>
-            <button>Book Now</button>
+          <div className="banner-item">
+            <img src={menu_img} alt="" srcset="" />
           </div>
         </div>
 
@@ -59,10 +58,10 @@ const Section1 = () => {
           </div>
         </div>
 
-        <div className="wall-makeover">
-          <h2>Wall Makeovers</h2>
+        <div className="wall-makeover" style={{ backgroundImage: `url(${bannerimg})` }}>
+          {/* <h2>Wall Makeovers</h2>
           <p>Revamp Your Space, Not Your Budget</p>
-          <button>Book Now</button>
+          <button>Book Now</button> */}
         </div>
       </div>
     </div>

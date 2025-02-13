@@ -93,3 +93,6 @@
   object-fit: cover;
   border-radius: 5px;
 }
+.fl-display{
+  display: flex;justify-content: space-evenly;
+}
