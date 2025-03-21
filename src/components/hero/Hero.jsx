@@ -6,6 +6,14 @@ import Banner from "../Banner/Banner";
 import Banner1 from "../Banner1/Banner1";
 import cart_icon from "../../assets/cart.png";
 import heart_icon from "../../assets/heart.png";
+import slide2 from "../../assets/slide2.png"
+import slide3 from "../../assets/slide3.png"
+import slide4 from "../../assets/slide4.png"
+import slide5 from "../../assets/slide5.png"
+import slide6 from "../../assets/slide6.png"
+import Banner2 from "../Banner2/Banner2";
+
+
 const Hero = () => {
   return (
     <div>
@@ -74,7 +82,7 @@ const Hero = () => {
               </a>
               <a href="#">
                 <>
-                  <Banner1 />
+                  <Banner2 />
                 </>
               </a>
             </div>
@@ -82,11 +90,11 @@ const Hero = () => {
           <div>
             <div className="service-gallery">
               <img src={img_3} alt="Service 1" />
-              <img src={img_3} alt="Service 2" />
-              <img src={img_3} alt="Service 3" />
-              <img src={img_3} alt="Service 4" />
-              <img src={img_3} alt="Service 5" />
-              <img src={img_3} alt="Service 6" />
+              <img src={slide2} alt="Service 2" />
+              <img src={slide3} alt="Service 3" />
+              <img src={slide4} alt="Service 4" />
+              <img src={slide5} alt="Service 5" />
+              <img src={slide6} alt="Service 6" />
             </div>
           </div>
         </div>

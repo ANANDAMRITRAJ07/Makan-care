@@ -11,28 +11,28 @@ const LastSection = () => {
     <div className="last-section">
       <div className="column">
         <img src={picA} alt="p1" />
-        <p className="bold-text">Bold Text 1</p>
-        <p>Normal Text 1</p>
+        <p className="bold-text">Fast Service</p>
+        <p>Above AED 20</p>
       </div>
       <div className="column">
         <img src={picB} alt="p2" />
-        <p className="bold-text">Bold Text 2</p>
-        <p>Normal Text 2</p>
+        <p className="bold-text">Warrenty</p>
+        <p>For all services</p>
       </div>
       <div className="column">
         <img src={picC} alt="p3" />
-        <p className="bold-text">Bold Text 3</p>
-        <p>Normal Text 3</p>
+        <p className="bold-text">Secured Payment</p>
+        <p>Online/card</p>
       </div>
       <div className="column">
         <img src={picD} alt="p4" />
-        <p className="bold-text">Bold Text 4</p>
-        <p>Normal Text 4</p>
+        <p className="bold-text">Offers</p>
+        <p>On First Service</p>
       </div>
       <div className="column">
         <img src={picE} alt="p5" />
-        <p className="bold-text">Bold Text 5</p>
-        <p>Normal Text 5</p>
+        <p className="bold-text">24*7 Support</p>
+        <p>Contact us</p>
       </div>
     </div>
   );

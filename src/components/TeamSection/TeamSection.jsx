@@ -26,7 +26,7 @@ const TeamSection = () => {
           <h3>Benjamin Nørgaard</h3>
           <p>Engineering</p>
         </div>
-        <div className="team-card">
+        {/* <div className="team-card">
           <img src={Member4} alt="Thor Christensen" />
           <h3>Thor Christensen</h3>
           <p>Co-Founder</p>
@@ -50,7 +50,7 @@ const TeamSection = () => {
           <img src={Member4} alt="Matias Frank" />
           <h3>Matias Frank</h3>
           <p>Engineering</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

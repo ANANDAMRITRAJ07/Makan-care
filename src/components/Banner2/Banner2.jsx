@@ -1,11 +1,10 @@
 import React from "react";
-import "./Banner1.css";
-import Bathroomclean from "../../assets/bathroomclean1.png"
+import "./Banner2.css";
+import Kitchenclean from "../../assets/kitchencleanung1.png"
 
-
-const Banner1 = () => {
+const Banner2 = () => {
   return (
-    <div className="banner1" style={{ backgroundImage: `url(${Bathroomclean})` }}>
+    <div className="banner1" style={{ backgroundImage: `url(${Kitchenclean})` }}>
       <div className="overlay"></div>
       <div className="banner-content1">
         {/* <p className="sale-text">Big Saving Days Sale</p> */}
@@ -20,4 +19,4 @@ const Banner1 = () => {
   );
 };
 
-export default Banner1;
+export default Banner2;

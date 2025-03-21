@@ -22,18 +22,18 @@
   justify-content: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
 }
 
 .contact-left {
   background-color: #e6e6e6;
-  padding: 20px;
-  text-align: center;
+  /* padding: 20px; */
+  text-align: center;display: flex;flex-direction: column;
 }
 
 .contact-logo {
-  height: 60px;
+  height: 160px;width: auto;margin: 20px;
 }
 
 .contact-tagline {
@@ -42,9 +42,10 @@
 }
 
 .contact-image {
-  width: 100%;
-  margin-top: 15px;
-  border-radius: 8px;
+  width: auto;
+  margin: 20px;
+  /* border-radius: 8px; */
+  height: 160px;
 }
 
 .contact-right {
@@ -61,7 +62,7 @@
   padding: 8px 15px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: bold;
 }
 
@@ -78,11 +79,11 @@
 
 .contact-query {
   margin-top: 15px;
-  color: #444;
+  color: #444;text-align: left;
 }
 
 .contact-form-title {
-  margin-top: 10px;
+  margin-top: 10px;text-align: left;
 }
 
 .contact-form {
@@ -120,7 +121,7 @@
 }
 .office-locations {
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #f9f9f9;
 }
 

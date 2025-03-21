@@ -2,6 +2,9 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import "./ContactUs.css";
 import OnlyHead from "../OnlyHead/OnlyHead";
+import locatiom_img from "../../assets/location.png"
+import technician from "../../assets/small.png"
+import sitelogo from "../../assets/logo.png"
 
 const ContactUs = () => {
   return (
@@ -16,13 +19,12 @@ const ContactUs = () => {
           {/* Left Side */}
           <div className="contact-left">
             <img
-              src="/logo.png"
+              src={sitelogo}
               alt="Makan Care Logo"
               className="contact-logo"
             />
-            <p className="contact-tagline">YOUR HOME OUR PRIORITY</p>
             <img
-              src="/technician.jpg"
+              src={technician}
               alt="Technician Working"
               className="contact-image"
             />
@@ -37,7 +39,9 @@ const ContactUs = () => {
               </button>
             </div>
             <p className="contact-query">
-              Got a query? Click on the button below to contact us.
+              Got a query? 
+              <br/>
+              Click on the button below to contact us.
             </p>
             <p className="contact-form-title">
               <strong>Fill out this form and we will get in touch.</strong>
@@ -79,7 +83,7 @@ const ContactUs = () => {
           {/* Registered Office */}
           <div className="office-box">
             <div className="office-icon">
-              <img src="/edit-icon.png" alt="Registered Office" />
+              <img src={locatiom_img} alt="Registered Office" />
             </div>
             <h3 className="office-heading">REGISTERED OFFICE</h3>
             <p className="office-address">
@@ -99,7 +103,7 @@ const ContactUs = () => {
           {/* Head Office */}
           <div className="office-box">
             <div className="office-icon">
-              <img src="/location-icon.png" alt="Head Office" />
+              <img src={locatiom_img}  alt="Head Office" />
             </div>
             <h3 className="office-heading">HEAD OFFICE</h3>
             <p className="office-address">

@@ -1,43 +1,46 @@
 import React from "react";
 import "./BlogSite.css";
-import BlogImg from "../../assets/insta.jpg";
+import B1 from "../../assets/b1.png";
+import B2 from "../../assets/piperepair.jpg";
+import B3 from "../../assets/b3.png";
+import B4 from "../../assets/b4.png";
 
 const BlogSite = () => {
   const blogs = [
     {
       id: 1,
-      //   imageUrl: 'https://example.com/blog1.jpg' ,
+      imageUrl: B1, // ✅ Fixed image assignment
       date: "Feb 12, 2025",
-      header: "Blog Post 1 Title",
+      header: "The Ultimate Home Maintenance Checklist.",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula...",
+        "A complete guide to essential home maintenance tasks for a safe, efficient, and well-kept home....",
       link: "#",
     },
     {
       id: 2,
-      //   imageUrl: 'https://example.com/blog2.jpg',
+      imageUrl: B2, // ✅ Fixed image assignment
       date: "Feb 11, 2025",
-      header: "Blog Post 2 Title",
+      header: "5 Common Plumbing Problems and How to Fix Them",
       content:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        "Learn to identify and fix common plumbing issues to prevent leaks, clogs, and costly repairs easily....",
       link: "#",
     },
     {
       id: 3,
-      //   imageUrl: 'https://example.com/blog3.jpg',
+      imageUrl: B3, // ✅ Fixed image assignment
       date: "Feb 10, 2025",
-      header: "Blog Post 3 Title",
+      header: "Signs Your Home Needs a Plumbing Check-up",
       content:
-        "Quisque volutpat mattis eros, ac condimentum odio tristique ut...",
+        "Watch for leaks, low water pressure, and strange noises—these signs mean your plumbing needs inspection....",
       link: "#",
     },
     {
       id: 4,
-      //   imageUrl: 'https://example.com/blog4.jpg',
+      imageUrl: B4, // ✅ Fixed image assignment
       date: "Feb 9, 2025",
-      header: "Blog Post 4 Title",
+      header: "How to Identify and Fix Common Electrical Issues",
       content:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum...",
+        "Learn to spot faulty wiring, flickering lights, and tripped breakers, and fix them safely....",
       link: "#",
     },
   ];
@@ -48,7 +51,7 @@ const BlogSite = () => {
       <div className="blogs">
         {blogs.map((blog) => (
           <div key={blog.id} className="blog">
-            <img src={BlogImg} alt={`Blog ${blog.id}`} className="blog-image" />
+            <img src={blog.imageUrl} alt={`Blog ${blog.id}`} className="blog-image" /> 
             <div className="blog-details">
               <span className="blog-date">{blog.date}</span>
               <h3 className="blog-header">{blog.header}</h3>

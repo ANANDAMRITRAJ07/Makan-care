@@ -19,10 +19,10 @@ const Footer = () => {
               Riyadh
             </p>
             <p className="footer-mail">
-              <a href="mailto:sales@yourcompany.com">sales@yourcompany.com</a>
+              <a href="mailto:support@makancare.com">support@makancare.com</a>
             </p>
             <p className="footer-phone">
-              <a href="tel:(+91) 9876-543-210">(+91) 9876-543-210</a>
+              <a href="tel:(+966) 9876-543-210">(+966) 9876-543-210</a>
             </p>
             <div className="footer-chatbot">
               <img src={chat_img} alt="" srcset="" />
@@ -36,24 +36,24 @@ const Footer = () => {
 
           {/* Column 2 */}
           <div className="footer-column">
-            <h3>Products</h3>
+            <h3>Quick Links</h3>
             <p>Contact Us</p>
-            <p>Shipping & Delivery</p>
-            <p>Returns & Exchanges</p>
-            <p>Contact Us</p>
-            <p>Shipping & Delivery</p>
-            <p>Returns & Exchanges</p>
+            <p>Services</p>
+            <p>About Us</p>
+            <p>Best Services</p>
+            {/* <p>Shipping & Delivery</p> */}
+            {/* <p>Returns & Exchanges</p> */}
           </div>
 
           {/* Column 3 */}
           <div className="footer-column">
             <h3>Our Company</h3>
-            <p>FAQ</p>
+            <p>Log in</p>
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
-            <p>Contact Us</p>
-            <p>Shipping & Delivery</p>
-            <p>Returns & Exchanges</p>
+            {/* <p>Contact Us</p> */}
+            {/* <p>Shipping & Delivery</p> */}
+            <p>Refund Policy</p>
           </div>
 
           {/* Column 4 */}

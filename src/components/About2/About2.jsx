@@ -78,10 +78,10 @@ const AboutUs = () => {
               and managing applications on Kubernetes at scale.
             </p>
             <div className="aboutus-metrics">
-              <div className="aboutus-metric">
+              <div>
                 <CounterApp />
               </div>
-              <div className="aboutus-metric">
+              <div>
                 <CounterApp2 />
               </div>
             </div>

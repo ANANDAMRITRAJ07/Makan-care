@@ -24,7 +24,7 @@ const Footbase = () => {
       </div>
 
       {/* Copyright Text */}
-      <p className="copyright">© 2025 - Ecommerce software by PrestaShop™</p>
+      <p className="copyright">© 2025 - All Copyright Reserved by MAKANCARE</p>
 
       {/* Payment Icons */}
       <div className="payment-icons">
