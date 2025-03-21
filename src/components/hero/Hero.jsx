@@ -12,56 +12,13 @@ import slide4 from "../../assets/slide4.png"
 import slide5 from "../../assets/slide5.png"
 import slide6 from "../../assets/slide6.png"
 import Banner2 from "../Banner2/Banner2";
+import OnlyHead from "../OnlyHead/OnlyHead";
 
 
 const Hero = () => {
   return (
     <div>
-      <nav className="navbar">
-      <div className="navbar-container">
-        <div className="logo-site">
-          <img src={logo_site} alt="Logo" className="logo" />
-        </div>
-        <div className="info-column">
-          <div className="top-row">
-            <a href="#">Help Center</a>
-            <a href="#">Order Tracking</a>
-            <div className="dropdown">
-              <span>English ▼</span>
-            </div>
-            <div className="dropdown">
-              <span>USD ▼</span>
-            </div>
-          </div>
-          <div className="bottom-row">
-            <div className="search-bar">
-              <input type="text" placeholder="Search products here..." />
-              <button>SEARCH</button>
-            </div>
-            <a href="#">Login / Register</a>
-            <div className="icons">
-              <img src={heart_icon} alt="Wishlist" />
-              <img src={cart_icon} alt="Cart" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="navbar-bottom">
-        <div className="categories">
-          <button>SHOP BY CATEGORIES ▼</button>
-        </div>
-        <div className="menu-links">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">New Arrivals</a>
-          <a href="#">More</a>
-        </div>
-        <div className="delivery-info">
-          <img src={rocket} alt="Free Delivery" />
-          <span>Free International Delivery</span>
-        </div>
-      </div>
-    </nav>
+      <OnlyHead />
       <section className="hero">
         <div className="hero-main">
           <div className="fl-display">

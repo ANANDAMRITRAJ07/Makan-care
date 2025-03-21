@@ -42,7 +42,7 @@
   }
   
   .top-row a:hover {
-    color: #007bff;
+    color: #090909;
   }
   
   .dropdown {
@@ -52,7 +52,7 @@
   .bottom-row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     margin-top: 5px;
   }
   
@@ -61,7 +61,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    width: 50%;
+    width: 50%;margin-right: 30px;
   }
   
   .search-bar input {
@@ -113,12 +113,12 @@
   .menu-links a {
     margin: 0 10px;
     text-decoration: none;
-    color: #333;
+    color: #6b4f36;
     transition: color 0.3s;
   }
   
   .menu-links a:hover {
-    color: #007bff;
+    color: #333;
   }
   
   .delivery-info {
@@ -130,4 +130,7 @@
   
   .delivery-info img {
     width: auto;height: 25px;
+  }
+  .Logincolor{
+    color: #6b4f36;margin: 0 90px;
   }

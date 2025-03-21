@@ -11,7 +11,7 @@ const Banner1 = () => {
         {/* <p className="sale-text">Big Saving Days Sale</p> */}
         <h2>Bathroom Cleaning</h2>
         <p className="price-text">
-          <strong>$59.00</strong>
+          <strong>AED 150.00</strong>
         </p>
         <p><a href="#"> BOOK NOW</a></p>
         {/* <button className="shop-btn">SHOP NOW</button> */}

@@ -4,6 +4,8 @@ import logo_site from "../../assets/logo.png";
 import rocket from '../../assets/inter-logo.png';
 import cart_icon from "../../assets/cart.png";
 import heart_icon from "../../assets/heart.png";
+import { Link } from "react-router-dom";
+import 
 
 const OnlyHead = () => {
   return (
@@ -18,10 +20,10 @@ const OnlyHead = () => {
               <a href="#">Help Center</a>
               <a href="#">Order Tracking</a>
               <div className="dropdown">
-                <span>English ▼</span>
+                <span>English</span>
               </div>
               <div className="dropdown">
-                <span>USD ▼</span>
+                <span>AED</span>
               </div>
             </div>
             <div className="bottom-row">
@@ -29,7 +31,9 @@ const OnlyHead = () => {
                 <input type="text" placeholder="Search products here..." />
                 <button>SEARCH</button>
               </div>
-              <a href="#">Login / Register</a>
+              {/* <a className="Logincolor" href="#">Login / Register</a> */}
+              <p>
+              <Link to="/login-main">Login / Register</Link></p>
               <div className="icons">
                 <img src={heart_icon} alt="Wishlist" />
                 <img src={cart_icon} alt="Cart" />
@@ -48,8 +52,8 @@ const OnlyHead = () => {
             <a href="#">More</a>
           </div>
           <div className="delivery-info">
-            <img src={rocket} alt="Free Delivery" />
-            <span>Free International Delivery</span>
+            {/* <img src={rocket} alt="Free Delivery" /> */}
+            <span>Fast & Secure Service</span>
           </div>
         </div>
       </nav>

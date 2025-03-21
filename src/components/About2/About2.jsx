@@ -19,16 +19,15 @@ const AboutUs = () => {
           <div className="aboutus-text">
             <h4 className="aboutus-subtitle">ABOUT US</h4>
             <h1 className="aboutus-title">
-              Providing developer-friendly Kubernetes abstraction to unleash
-              developer productivity
+              Reliable, Affordable, and Efficient Home Maintenance Services for
+              Repairs, Renovations, and Upkeep
             </h1>
             <p className="aboutus-description">
-              Rig.dev offers an application platform for Kubernetes. We empower
-              developers with our developer-friendly deployment engine that
-              simplifies the process of building, managing, troubleshooting, and
-              scaling applications on Kubernetes. The platform provides elevated
-              Kubernetes abstractions, cloud-native integrations, and powerful
-              tooling that unlocks true developer experience and productivity.
+              With a team of skilled professionals, we ensure reliable,
+              efficient, and affordable services tailored to keep your home in
+              top condition. Whether it’s a quick repair, a major renovation, or
+              regular upkeep, MakanCare is your one-stop solution for a
+              hassle-free home maintenance experience.
             </p>
           </div>
           <div className="aboutus-image">
@@ -62,20 +61,28 @@ const AboutUs = () => {
           <div className="aboutus-why-text">
             <h2>Why we started Makan Care</h2>
             <p>
-              We have experienced the immense power of platforms like Kubernetes
-              in streamlining infrastructure management. However, through
-              first-hand experience, we have seen how such technologies often
-              suffer from being misunderstood and underutilized.
+              At MakanCare, we started with a simple mission—to make home
+              maintenance easy, reliable, and hassle-free. We understand that
+              finding skilled and trustworthy professionals for household
+              repairs and services can be frustrating, time-consuming, and often
+              expensive. Many homeowners struggle with last-minute emergencies,
+              inconsistent service quality, and unreliable technicians. Seeing
+              this gap, we decided to create a one-stop solution where people
+              can access high-quality, affordable, and professional home care
+              services with just a few clicks. Our goal is to eliminate the
+              stress of home maintenance by connecting homeowners with skilled
+              experts who provide efficient, timely, and top-notch service.
             </p>
+            <h2>Our Vision</h2>
             <p>
-              Additionally, too many developers are wasting valuable time
-              reinventing generic and repetitive features and infrastructure
-              environments – we've been there ourselves.
-            </p>
-            <p>
-              We founded Rig.dev to rethink the developer platform landscape by
-              eliminating the complexities associated with building, deploying,
-              and managing applications on Kubernetes at scale.
+              We believe that every home deserves the best
+              care—whether it’s fixing a leaking pipe, installing smart home
+              devices, or deep cleaning for a fresh start. By combining
+              technology with a dedicated team of experts, we aim to simplify
+              home maintenance and create a seamless experience for our
+              customers. With MakanCare, home maintenance is no longer a
+              burden—it’s a service you can trust and rely on. 🚀 Would you like
+              to add a personal touch, such as a founding story or inspiration? 
             </p>
             <div className="aboutus-metrics">
               <div>
@@ -87,7 +94,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="aboutus-why-image">
-          <img src={et2} alt="Cart" />
+            <img src={et2} alt="Cart" />
           </div>
         </section>
       </div>

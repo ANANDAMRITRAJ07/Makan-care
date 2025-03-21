@@ -16,22 +16,22 @@ import About2 from './components/About2/About2.jsx'
 function App() {
 
   return (
-    <div>
-      <Hero />
-      <Section1 />
-      <Section2 />
-      {/* <Section3 /> */}
-      <BlogSite />
-      {/* <InstagramSection /> */}
-      <LastSection />
-      <Footer />
-    </div>
+    // <div>
+    //   <Hero />
+    //   <Section1 />
+    //   <Section2 />
+    //   {/* <Section3 /> */}
+    //   <BlogSite />
+    //   {/* <InstagramSection /> */}
+    //   <LastSection />
+    //   <Footer />
+    // </div>
     // <div>
     //   <ProductPage />
     // </div>
-    // <div>
-    //   <About2 />
-    // </div>
+    <div>
+      <About2 />
+    </div>
     // <div>
     //   <ContactUs /> 
     // </div>
