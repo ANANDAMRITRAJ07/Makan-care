@@ -5,7 +5,6 @@ import rocket from '../../assets/inter-logo.png';
 import cart_icon from "../../assets/cart.png";
 import heart_icon from "../../assets/heart.png";
 import { Link } from "react-router-dom";
-import 
 
 const OnlyHead = () => {
   return (
@@ -32,8 +31,7 @@ const OnlyHead = () => {
                 <button>SEARCH</button>
               </div>
               {/* <a className="Logincolor" href="#">Login / Register</a> */}
-              <p>
-              <Link to="/login-main">Login / Register</Link></p>
+              {/* <p><Link to="/login-main">Login / Register</Link></p> */}
               <div className="icons">
                 <img src={heart_icon} alt="Wishlist" />
                 <img src={cart_icon} alt="Cart" />

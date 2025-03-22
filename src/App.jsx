@@ -11,30 +11,41 @@ import ContactUs from './components/contactpage/ContactUs.jsx'
 import ProductPage from './components/ProductPage/ProductPage.jsx'
 import AboutUs from './components/AboutUs/About_us.jsx'
 import About2 from './components/About2/About2.jsx'
+import Product_Site from './components/Product_Site/Product_Site.jsx'
+import Plumbing_Product from './components/plumbing_product/plumbing_product.jsx'
+import CategoryWiseProductDisplay from './components/CategoryWiseProductDisplay/CategoryWiseProductDisplay.jsx'
 
 
 function App() {
 
   return (
-    // <div>
-    //   <Hero />
-    //   <Section1 />
-    //   <Section2 />
-    //   {/* <Section3 /> */}
-    //   <BlogSite />
-    //   {/* <InstagramSection /> */}
-    //   <LastSection />
-    //   <Footer />
-    // </div>
+    <div>
+      <Hero />
+      <Section1 />
+      <Section2 />
+      {/* <Section3 /> */}
+      <CategoryWiseProductDisplay />
+      <BlogSite />
+
+      {/* <InstagramSection /> */}
+      <LastSection />
+      <Footer />
+    </div>
     // <div>
     //   <ProductPage />
     // </div>
-    <div>
-      <About2 />
-    </div>
+    // <div>
+    //   <About2 />
+    // </div>
     // <div>
     //   <ContactUs /> 
     // </div>
+    // <div>
+    //   <Product_Site />
+    // </div>
+    // <div>
+    //   <Plumbing_Product/>
+    // </div> 
   )
 }
 

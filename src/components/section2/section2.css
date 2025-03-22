@@ -85,7 +85,7 @@
       background-size: cover;
       background-position: center;
       /* border-radius: 5px; */
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: flex-end;
       padding: 25px;height: 305px;margin: 20px 0;
